@@ -1,0 +1,37 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.1
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Jan 10, 2013 at 12:01 PM
+-- Server version: 5.0.41
+-- PHP Version: 5.2.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Database: `techp`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `portfolio`
+-- 
+
+CREATE TABLE `portfolio` (
+  `id` int(11) NOT NULL auto_increment,
+  `Pro_lan` varchar(100) NOT NULL,
+  `Web_dev` varchar(100) NOT NULL,
+  `Os` varchar(100) NOT NULL,
+  `Ide` varchar(100) NOT NULL,
+  `Db` varchar(100) NOT NULL,
+  `Projects` varchar(100) NOT NULL,
+  `Pro_desc` varchar(100) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=35 ;
+
+-- 
+-- Dumping data for table `portfolio`
+-- 
+
